@@ -1,8 +1,12 @@
 aid: variant-bio
 name: Variant Bio
-description: Variant Bio is a company surfaced as a portfolio company of general-catalyst, lux-capital,
-  softbank-vision-fund and added to the API Evangelist network as a stub for enrichment. This profile
-  is a lead awaiting the enrichment pipeline.
+description: Variant Bio is a biotechnology company developing life-saving therapies by studying
+  the genes of people with exceptional health-related traits. Working with partner communities
+  around the world under an ethical, benefit-sharing approach, the company pairs large-scale
+  genomic discovery with data science to turn genetic diversity into novel drug targets across
+  metabolic, cardiovascular and other disease areas. Surfaced as a portfolio company of
+  General Catalyst, Lux Capital and SoftBank Vision Fund and profiled in the API Evangelist
+  network; Variant Bio publishes no public developer/API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/variant-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +16,28 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://variant-bio.transforms.svdcdn.com/production/default/social-share.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Genomics
+- Therapeutics
+- Drug Discovery
+- Biotechnology
+- Precision Medicine
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/variant-bio-domain-security.yml
 - type: Website
   url: https://www.variantbio.com
+- type: Blog
+  url: https://medium.com/variantbio/
+- type: PrivacyPolicy
+  url: https://www.variantbio.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
