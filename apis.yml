@@ -41,7 +41,7 @@ accessModel:
 image: https://variant-bio.transforms.svdcdn.com/production/default/social-share.jpg
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Genomics
@@ -56,6 +56,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://medium.com/feed/variantbio
+  type: BlogRSS
 - type: DomainSecurity
   url: security/variant-bio-domain-security.yml
 - type: Website
